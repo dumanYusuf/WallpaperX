@@ -4,6 +4,7 @@ package com.dumanyusuf.duvarkagidix
 
      object HomePageView:Screan("home_page")
      object DetailPageView:Screan("detail_page")
+     object FavoriPageView:Screan("favori_page")
 
 
  }

@@ -9,7 +9,8 @@ import androidx.navigation.navArgument
 import com.dumanyusuf.duvarkagidix.Screan
 import com.dumanyusuf.duvarkagidix.domain.model.WallpaperModel
 import com.dumanyusuf.duvarkagidix.presentation.detail_views.DetailPage
-import com.dumanyusuf.duvarkagidix.presentation.home_views.HomePageScrean
+import com.dumanyusuf.duvarkagidix.presentation.favori_views.FavoriPage
+import com.dumanyusuf.duvarkagidix.presentation.home_views.views.HomePageScrean
 import com.google.gson.Gson
 import java.net.URLDecoder
 
@@ -34,6 +35,9 @@ fun PageController() {
             val decodedJsonNews = URLDecoder.decode(jsonNews, "UTF-8")
             val wallpaper = Gson().fromJson(decodedJsonNews, WallpaperModel::class.java)
             DetailPage(wallpaper,navController)
+        }
+        composable(Screan.FavoriPageView.route){
+            FavoriPage()
         }
 
     }

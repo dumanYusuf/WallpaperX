@@ -8,7 +8,6 @@ import androidx.activity.enableEdgeToEdge
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.material3.Scaffold
 import androidx.compose.ui.Modifier
-import com.dumanyusuf.duvarkagidix.presentation.home_views.HomePageScrean
 import com.dumanyusuf.duvarkagidix.presentation.navigation.PageController
 import com.dumanyusuf.duvarkagidix.ui.theme.DuvarKagidiXTheme
 import dagger.hilt.android.AndroidEntryPoint
