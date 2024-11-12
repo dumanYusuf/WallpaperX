@@ -6,13 +6,10 @@ import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
 import androidx.compose.foundation.layout.fillMaxSize
-import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.Scaffold
-import androidx.compose.material3.Text
-import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.tooling.preview.Preview
-import com.dumanyusuf.duvarkagidix.presentation.views.HomePageScrean
+import com.dumanyusuf.duvarkagidix.presentation.home_views.HomePageScrean
+import com.dumanyusuf.duvarkagidix.presentation.navigation.PageController
 import com.dumanyusuf.duvarkagidix.ui.theme.DuvarKagidiXTheme
 import dagger.hilt.android.AndroidEntryPoint
 
@@ -26,7 +23,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             DuvarKagidiXTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) {
-                    HomePageScrean()
+                   PageController()
                 }
             }
         }

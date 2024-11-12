@@ -1,4 +1,4 @@
-package com.dumanyusuf.duvarkagidix.presentation
+package com.dumanyusuf.duvarkagidix.presentation.home_views
 
 import com.dumanyusuf.duvarkagidix.domain.model.WallpaperModel
 
