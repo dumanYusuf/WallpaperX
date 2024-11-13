@@ -4,6 +4,7 @@ import com.dumanyusuf.duvarkagidix.data.remote.WallpaperApi
 import com.dumanyusuf.duvarkagidix.data.repo.RepoImplm
 import com.dumanyusuf.duvarkagidix.domain.repo.WallpaperRepo
 import com.dumanyusuf.duvarkagidix.util.Constans
+import com.google.firebase.firestore.FirebaseFirestore
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
@@ -32,5 +33,7 @@ object AppModule {
     fun getRepo(api:WallpaperApi):WallpaperRepo{
         return RepoImplm(api)
     }
+
+
 
 }

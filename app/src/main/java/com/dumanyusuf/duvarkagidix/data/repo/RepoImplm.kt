@@ -1,11 +1,15 @@
 package com.dumanyusuf.duvarkagidix.data.repo
 
+
+import android.util.Log
 import com.dumanyusuf.duvarkagidix.data.remote.WallpaperApi
 import com.dumanyusuf.duvarkagidix.data.remote.dto.Hit
 import com.dumanyusuf.duvarkagidix.data.remote.dto.WallpaperDto
 import com.dumanyusuf.duvarkagidix.domain.repo.WallpaperRepo
 import com.dumanyusuf.duvarkagidix.util.Constans
+import com.google.firebase.firestore.FirebaseFirestore
 import javax.inject.Inject
+
 
 class RepoImplm @Inject constructor(private val api: WallpaperApi) : WallpaperRepo {
 
@@ -15,6 +19,7 @@ class RepoImplm @Inject constructor(private val api: WallpaperApi) : WallpaperRe
     override suspend fun getWallpaperList(): WallpaperDto {
         // Eğer önceden alınmış veriler varsa, onları döndürüyoruz
         cachedWallpapers?.let {
+            Log.e("önceki veri","önceki veri")
             return it
         }
 
@@ -39,4 +44,7 @@ class RepoImplm @Inject constructor(private val api: WallpaperApi) : WallpaperRe
 
         return wallpaperDto
     }
+
+
+
 }

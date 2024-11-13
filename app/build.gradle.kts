@@ -4,6 +4,7 @@ plugins {
     alias(libs.plugins.kotlin.compose)
     id("kotlin-kapt")
     id("com.google.dagger.hilt.android")
+    id("com.google.gms.google-services")
 
 }
 
@@ -52,6 +53,7 @@ dependencies {
     implementation(libs.androidx.ui.graphics)
     implementation(libs.androidx.ui.tooling.preview)
     implementation(libs.androidx.material3)
+    implementation(libs.firebase.firestore)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
@@ -95,6 +97,12 @@ dependencies {
     // Coroutine Lifecycle Scopes
     implementation ("androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.4")
     implementation ("androidx.lifecycle:lifecycle-runtime-ktx:2.8.4")
+
+    implementation(platform("com.google.firebase:firebase-bom:33.5.1"))
+
+    // admob
+    implementation("com.google.android.gms:play-services-ads:23.3.0")
+
 
 
 }

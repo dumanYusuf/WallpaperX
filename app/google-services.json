@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "278234264485",
+    "project_id": "duvarkagidim-b4171",
+    "storage_bucket": "duvarkagidim-b4171.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:278234264485:android:34ea0151953f37a958ae4c",
+        "android_client_info": {
+          "package_name": "com.dumanyusuf.duvarkagidix"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDccmN8S7bZRoLKjrX4CuoXCdJ-_fRgyAU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
