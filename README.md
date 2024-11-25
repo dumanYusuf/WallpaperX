@@ -19,3 +19,4 @@ Repository: Veritabanı veya uzak veri kaynaklarıyla etkileşimde bulunur. API'
 Bu yapı sayesinde uygulamanın kodları daha düzenli, sürdürülebilir ve test edilebilir hale getirilmiştir. Her fonksiyon ve sınıf, belirli bir işlevi yerine getirecek şekilde tasarlanmış olup, bu yapı uygulamanın bakımı ve geliştirilmesi için büyük avantaj sağlar.
 
 ![image alt](https://github.com/dumanYusuf/WallpaperX/blob/master/Wallpaper1.png?raw=true)
+![image alt](https://github.com/dumanYusuf/WallpaperX/blob/master/Wallpaper2.png?raw=true)
