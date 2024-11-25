@@ -17,3 +17,5 @@ View: Yalnızca kullanıcı arayüzü (UI) kodlarını içerir ve ViewModel’e 
 Repository: Veritabanı veya uzak veri kaynaklarıyla etkileşimde bulunur. API'den duvar kağıdı resimlerini alır ve Use Case katmanına iletir. Repository bağımsız olarak test edilebilir olup, iş mantığından ayrıdır.
 
 Bu yapı sayesinde uygulamanın kodları daha düzenli, sürdürülebilir ve test edilebilir hale getirilmiştir. Her fonksiyon ve sınıf, belirli bir işlevi yerine getirecek şekilde tasarlanmış olup, bu yapı uygulamanın bakımı ve geliştirilmesi için büyük avantaj sağlar.
+
+![image alt](https://github.com/dumanYusuf/WallpaperX/blob/master/Wallpaper1.png?raw=true)
