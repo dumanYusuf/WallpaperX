@@ -20,3 +20,4 @@ Bu yapı sayesinde uygulamanın kodları daha düzenli, sürdürülebilir ve tes
 
 ![image alt](https://github.com/dumanYusuf/WallpaperX/blob/master/Wallpaper1.png?raw=true)
 ![image alt](https://github.com/dumanYusuf/WallpaperX/blob/master/Wallpaper2.png?raw=true)
+![image alt](https://github.com/dumanYusuf/WallpaperX/blob/master/Wallpaper3.png?raw=true)
